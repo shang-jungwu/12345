@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DB3CF2E2C6501F70074C379 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB3CF2D2C6501F70074C379 /* ContainerViewController.swift */; };
+		6DB3CF302C65022E0074C379 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB3CF2F2C65022E0074C379 /* YellowViewController.swift */; };
+		6DB3CF322C65023E0074C379 /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB3CF312C65023E0074C379 /* OrangeViewController.swift */; };
+		6DB3CF342C6502D70074C379 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB3CF332C6502D70074C379 /* TableViewController.swift */; };
+		6DB3CF362C65031C0074C379 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB3CF352C65031C0074C379 /* TableViewCell.swift */; };
 		6DE68C6B2C6269BE008B7C90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE68C6A2C6269BE008B7C90 /* AppDelegate.swift */; };
 		6DE68C6D2C6269BE008B7C90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE68C6C2C6269BE008B7C90 /* SceneDelegate.swift */; };
 		6DE68C6F2C6269BE008B7C90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE68C6E2C6269BE008B7C90 /* ViewController.swift */; };
@@ -19,6 +24,11 @@
 /* Begin PBXFileReference section */
 		21646A7C7B0BDC7E0DCE5C1A /* Pods_12345.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_12345.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		633C02DD028006CFD9AE3A8A /* Pods-12345.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-12345.debug.xcconfig"; path = "Target Support Files/Pods-12345/Pods-12345.debug.xcconfig"; sourceTree = "<group>"; };
+		6DB3CF2D2C6501F70074C379 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		6DB3CF2F2C65022E0074C379 /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		6DB3CF312C65023E0074C379 /* OrangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
+		6DB3CF332C6502D70074C379 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		6DB3CF352C65031C0074C379 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		6DE68C672C6269BE008B7C90 /* 12345.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 12345.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DE68C6A2C6269BE008B7C90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DE68C6C2C6269BE008B7C90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +61,18 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		6DB3CF2C2C6501DD0074C379 /* ContainerVC */ = {
+			isa = PBXGroup;
+			children = (
+				6DB3CF2D2C6501F70074C379 /* ContainerViewController.swift */,
+				6DB3CF332C6502D70074C379 /* TableViewController.swift */,
+				6DB3CF352C65031C0074C379 /* TableViewCell.swift */,
+				6DB3CF2F2C65022E0074C379 /* YellowViewController.swift */,
+				6DB3CF312C65023E0074C379 /* OrangeViewController.swift */,
+			);
+			path = ContainerVC;
+			sourceTree = "<group>";
+		};
 		6DE68C5E2C6269BE008B7C90 = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +97,7 @@
 				6DE68C6A2C6269BE008B7C90 /* AppDelegate.swift */,
 				6DE68C6C2C6269BE008B7C90 /* SceneDelegate.swift */,
 				6DE68C6E2C6269BE008B7C90 /* ViewController.swift */,
+				6DB3CF2C2C6501DD0074C379 /* ContainerVC */,
 				6DE68C702C6269BE008B7C90 /* Main.storyboard */,
 				6DE68C732C6269BF008B7C90 /* Assets.xcassets */,
 				6DE68C752C6269BF008B7C90 /* LaunchScreen.storyboard */,
@@ -207,8 +230,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DE68C6F2C6269BE008B7C90 /* ViewController.swift in Sources */,
+				6DB3CF362C65031C0074C379 /* TableViewCell.swift in Sources */,
+				6DB3CF342C6502D70074C379 /* TableViewController.swift in Sources */,
 				6DE68C6B2C6269BE008B7C90 /* AppDelegate.swift in Sources */,
+				6DB3CF322C65023E0074C379 /* OrangeViewController.swift in Sources */,
+				6DB3CF2E2C6501F70074C379 /* ContainerViewController.swift in Sources */,
 				6DE68C6D2C6269BE008B7C90 /* SceneDelegate.swift in Sources */,
+				6DB3CF302C65022E0074C379 /* YellowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
